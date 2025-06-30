@@ -1,0 +1,7 @@
+FROM python:3.9
+
+WORKDIR /app
+
+COPY read_names.py .
+
+CMD ["python", "read_names.py"]
